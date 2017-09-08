@@ -27,7 +27,7 @@ public class Main {
         mapper1.writePairsToFile(fileName);
 
         fileName="output.txt";
-        InMapWordCount wc=new InMapWordCount();
+        WordCount wc=new WordCount();
         wc.writeAllPairsToFile(fileName);
 	}
 
