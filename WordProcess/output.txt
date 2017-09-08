@@ -1,0 +1,116 @@
+Mapper 0 Output
+(mat,2)
+(pat,1)
+(bat,1)
+(rat,1)
+(cat,2)
+(sat,1)
+(fat,1)
+(eat,1)
+Mapper 1 Output
+(mat,1)
+(pat,2)
+(oat,2)
+(bat,1)
+(rat,1)
+(eat,1)
+(hat,2)
+Mapper 2 Output
+(pat,1)
+(rat,1)
+(cat,1)
+(sat,1)
+(hat,1)
+(wat,1)
+(zat,1)
+(jat,1)
+(lat,1)
+(kat,1)
+Pairs send from Mapper 0 to Reducer 0
+<mat,2> 
+Pairs send from Mapper 0 to Reducer 3
+<pat,1> 
+Pairs send from Mapper 0 to Reducer 1
+<bat,1> 
+Pairs send from Mapper 0 to Reducer 1
+<rat,1> 
+Pairs send from Mapper 0 to Reducer 2
+<cat,2> 
+Pairs send from Mapper 0 to Reducer 2
+<sat,1> 
+Pairs send from Mapper 0 to Reducer 1
+<fat,1> 
+Pairs send from Mapper 0 to Reducer 0
+<eat,1> 
+Pairs send from Mapper 1 to Reducer 0
+<mat,1> 
+Pairs send from Mapper 1 to Reducer 3
+<pat,2> 
+Pairs send from Mapper 1 to Reducer 2
+<oat,2> 
+Pairs send from Mapper 1 to Reducer 1
+<bat,1> 
+Pairs send from Mapper 1 to Reducer 1
+<rat,1> 
+Pairs send from Mapper 1 to Reducer 0
+<eat,1> 
+Pairs send from Mapper 1 to Reducer 3
+<hat,2> 
+Pairs send from Mapper 2 to Reducer 3
+<pat,1> 
+Pairs send from Mapper 2 to Reducer 1
+<rat,1> 
+Pairs send from Mapper 2 to Reducer 2
+<cat,1> 
+Pairs send from Mapper 2 to Reducer 2
+<sat,1> 
+Pairs send from Mapper 2 to Reducer 3
+<hat,1> 
+Pairs send from Mapper 2 to Reducer 2
+<wat,1> 
+Pairs send from Mapper 2 to Reducer 1
+<zat,1> 
+Pairs send from Mapper 2 to Reducer 1
+<jat,1> 
+Pairs send from Mapper 2 to Reducer 3
+<lat,1> 
+Pairs send from Mapper 2 to Reducer 2
+<kat,1> 
+Reducer Input 0
+<eat, [1,1] >
+<mat, [2,1] >
+Reducer Input 1
+<bat, [1,1] >
+<fat, [1] >
+<jat, [1] >
+<rat, [1,1,1] >
+<zat, [1] >
+Reducer Input 2
+<cat, [2,1] >
+<kat, [1] >
+<oat, [2] >
+<sat, [1,1] >
+<wat, [1] >
+Reducer Input 3
+<hat, [2,1] >
+<lat, [1] >
+<pat, [1,2,1] >
+Reducer Output 0
+<eat, 2 >
+<mat, 3 >
+Reducer Output 1
+<bat, 2 >
+<fat, 1 >
+<jat, 1 >
+<rat, 3 >
+<zat, 1 >
+Reducer Output 2
+<cat, 3 >
+<kat, 1 >
+<oat, 2 >
+<sat, 2 >
+<wat, 1 >
+Reducer Output 3
+<hat, 3 >
+<lat, 1 >
+<pat, 4 >
